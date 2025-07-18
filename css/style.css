@@ -14,6 +14,11 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+.grey {
+    background-color: lightgrey;
+}
+
 /* header */
 #nav-container {
     background-color: aquamarine;
@@ -31,7 +36,7 @@ ul {
 }
  
 .nav-items {
-width: 20%;
+    width: 20%;
 }
 
 #nav-list {
@@ -52,4 +57,78 @@ width: 20%;
     background-color: hotpink;
     width: 40%;
     height: 90%;
+}
+
+/*main*/
+
+.main-section {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 50%;
+    height: 90%;
+    background-color: blue;
+    display: flex;
+}
+
+.large-container {
+    flex-grow: 1;
+}
+
+.small-container {
+    width: 40%;
+    background-color: pink;
+}
+
+/* sezione xlarge */
+.xlarge-section {
+     height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.xlarge-container {
+    width: 50%;
+    height: 90%;
+    background-color: green;
+}
+
+/* footer */
+footer {
+    background-color: rgb(36, 36, 36);
+}
+
+#contatti {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+}
+
+.footer-container {
+    width: 50%;
+    height: 90%;
+    display: flex;
+}
+
+.footer-item-sm {
+    background-color: salmon;
+    width: calc(100% /3);
+}
+
+.footer-item-lg {
+    background-color: cadetblue;
+    flex-grow: 1;
+    display: flex;
+}
+
+.col-large {
+    width: 25%;
+    height: 100%;
+    border: 1px dotted white;
 }
