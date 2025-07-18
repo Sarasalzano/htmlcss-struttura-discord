@@ -8,11 +8,16 @@
 /* regole generali*/
 li {
     list-style-type: none;
+    margin-left: 20px;
 }
 
 ul {
     display: flex;
     justify-content: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .grey {
@@ -34,18 +39,22 @@ ul {
 .nav-bar {
     background-color: yellow;
     height: 30px;
-    width: 60%;
+    width: 50%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
  
 .nav-items {
     width: 20%;
 }
 
-#nav-list {
+.lista {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
     flex-grow: 1;
 }
-
 
 /* Jumbotron */
 #jt-background {
@@ -139,4 +148,8 @@ footer {
     background-color: aquamarine;
     width: 50%;
     height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
