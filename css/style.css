@@ -31,12 +31,12 @@ a {
 }
 
 /* header */
-#nav-container {
+#header-bar {
     background-color: aquamarine;
     height: 50px;
 }
 
-.nav-bar {
+#navigation-bar {
     background-color: yellow;
     height: 30px;
     width: 50%;
