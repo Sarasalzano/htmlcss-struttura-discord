@@ -1,7 +1,55 @@
 /* css reset */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* regole generali*/
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+/* header */
+#nav-container {
+    background-color: aquamarine;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar {
+    background-color: yellow;
+    height: 30px;
+    width: 60%;
+    display: flex;
+}
+ 
+.nav-items {
+width: 20%;
+}
+
+#nav-list {
+    flex-grow: 1;
+}
+
+
+/* Jumbotron */
+#jt-background {
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jt-container {
+    background-color: hotpink;
+    width: 40%;
+    height: 90%;
 }
