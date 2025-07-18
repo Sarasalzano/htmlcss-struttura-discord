@@ -19,13 +19,16 @@ ul {
     background-color: lightgrey;
 }
 
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* header */
 #nav-container {
     background-color: aquamarine;
     height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .nav-bar {
@@ -48,9 +51,6 @@ ul {
 #jt-background {
     background-color: blue;
     height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #jt-container {
@@ -63,9 +63,6 @@ ul {
 
 .main-section {
     height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .main-container {
@@ -86,10 +83,7 @@ ul {
 
 /* sezione xlarge */
 .xlarge-section {
-     height: 550px;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
+     height: 550px; 
 }
 
 .xlarge-container {
@@ -104,10 +98,7 @@ footer {
 }
 
 #contatti {
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;        
+    height: 350px;       
 }
 
 .footer-container {
@@ -131,4 +122,21 @@ footer {
     width: 25%;
     height: 100%;
     border: 1px dotted white;
+}
+
+/* icone footer */
+
+#footer-icone {
+    height: 40px;
+    border: 1px solid lightgrey;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+#barra-icone {
+    background-color: aquamarine;
+    width: 50%;
+    height: 80%;
 }
