@@ -52,7 +52,7 @@ a {
 .lista {
     display: flex;
     align-items:center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-grow: 1;
 }
 
