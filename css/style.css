@@ -43,10 +43,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
  
 .nav-items {
     width: 20%;
+}
+
+#login {
+    text-align: right;
 }
 
 .lista {
