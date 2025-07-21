@@ -24,19 +24,18 @@ a {
     background-color: lightgrey;
 }
 
-.flex-center {
+/* header */
+#header-bar {
+    /* debug */
+    background-color: aquamarine;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* header */
-#header-bar {
-    background-color: aquamarine;
-    height: 50px;
-}
-
 #navigation-bar {
+    /* debug */
     background-color: yellow;
     height: 30px;
     width: 50%;
@@ -63,26 +62,36 @@ a {
 
 /* Jumbotron */
 #jt-background {
+    /* debug */
     background-color: blue;
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #jt-container {
+    /* debug */
     background-color: hotpink;
-    width: 40%;
     height: 90%;
+    width: 40%;
+    
 }
 
 /*main*/
 
 .main-section {
     height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-container {
-    width: 50%;
-    height: 90%;
+    /* debug */
     background-color: blue;
+    height: 90%;
+    width: 50%;
     display: flex;
 }
 
@@ -91,19 +100,24 @@ a {
 }
 
 .small-container {
-    width: 40%;
+    /* debug */
     background-color: pink;
+    width: 40%;
 }
 
 /* sezione xlarge */
 .xlarge-section {
-     height: 550px; 
+    height: 550px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .xlarge-container {
-    width: 50%;
-    height: 90%;
+    /* debug */
     background-color: green;
+    height: 90%; 
+    width: 50%;
 }
 
 /* footer */
@@ -112,30 +126,36 @@ footer {
 }
 
 #contatti {
-    height: 350px;       
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;       
 }
 
 .footer-container {
-    width: 50%;
     height: 90%;
+    width: 50%;
     display: flex;
 }
 
 .footer-item-sm {
+    /* debug */
     background-color: salmon;
-    width: calc(100% /3);
+    width: 30%;
 }
 
 .footer-item-lg {
+    /* debug */
     background-color: cadetblue;
     flex-grow: 1;
     display: flex;
 }
 
 .col-large {
-    width: 25%;
+    /* debug */
     height: 100%;
     border: 1px dotted white;
+    width: 25%;
 }
 
 /* icone footer */
@@ -150,9 +170,10 @@ footer {
 }
 
 #barra-icone {
+    /* debug */
     background-color: aquamarine;
-    width: 50%;
     height: 80%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
